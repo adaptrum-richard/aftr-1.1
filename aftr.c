@@ -2787,7 +2787,7 @@ jhash_nat(struct nat *n)
 	return (u_short) c;
 }
 
-inline u_short
+u_short 
 jhash_tunnel(u_char *addr)
 {
 	uint32_t a, b, c, k;
